@@ -1,0 +1,158 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BytesIO	../src/shirts/shirts.py	/^from io import BytesIO$/;"	kind:namespace	line:19
+BytesIO	../src/style/style.py	/^from io import BytesIO$/;"	kind:namespace	line:19
+CLASSES	../src/shirts/shirts.py	/^CLASSES = ['metal', 'sport']$/;"	kind:variable	line:40
+CLASSES	../src/style/style.py	/^CLASSES = ['metal', 'sport']$/;"	kind:variable	line:49
+CombinedModel	../src/style/models.py	/^class CombinedModel(nn.Module):$/;"	kind:class	line:6
+ContentStyleLoader	../src/style/data.py	/^class ContentStyleLoader():$/;"	kind:class	line:13
+ContentStyleLoader	../src/style/style.py	/^from data import ContentStyleLoader, InputDataset, SimpleDataBunch$/;"	kind:namespace	line:35
+DDP	../src/style/dist.py	/^class DDP(DistributedDataParallel):$/;"	kind:class	line:12
+DistributedDataParallel	../src/style/dist.py	/^from torch.nn.parallel.deprecated import DistributedDataParallel$/;"	kind:namespace	line:3
+DistributedSampler	../src/style/dist.py	/^from torch.utils.data.distributed import DistributedSampler$/;"	kind:namespace	line:2
+DistributedSampler	../src/style/style.py	/^from torch.utils.data.distributed import DistributedSampler$/;"	kind:namespace	line:31
+F	../src/dogscats/dogscats.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:26
+F	../src/shirts/shirts.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:22
+F	../src/style/style.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:22
+IMG_SIZE	../src/dogscats/dogscats.py	/^IMG_SIZE = int(os.environ.get('IMAGE_SIZE', '224'))$/;"	kind:variable	line:43
+IMG_SIZE	../src/shirts/shirts.py	/^IMG_SIZE = int(os.environ.get('IMAGE_SIZE', '224'))$/;"	kind:variable	line:37
+IMG_SIZE	../src/style/style.py	/^IMG_SIZE = int(os.environ.get('IMAGE_SIZE', '224'))$/;"	kind:variable	line:46
+Image	../src/dogscats/dogscats.py	/^from PIL import Image$/;"	kind:namespace	line:22
+InputDataset	../src/style/data.py	/^class InputDataset(Dataset):$/;"	kind:class	line:4
+InputDataset	../src/style/style.py	/^from data import ContentStyleLoader, InputDataset, SimpleDataBunch$/;"	kind:namespace	line:35
+JPEG_CONTENT_TYPE	../src/dogscats/dogscats.py	/^JPEG_CONTENT_TYPE = 'image\/jpeg'$/;"	kind:variable	line:40
+JPEG_CONTENT_TYPE	../src/shirts/shirts.py	/^JPEG_CONTENT_TYPE = 'image\/jpeg'$/;"	kind:variable	line:34
+JPEG_CONTENT_TYPE	../src/style/style.py	/^JPEG_CONTENT_TYPE = 'image\/jpeg'$/;"	kind:variable	line:43
+JSON_CONTENT_TYPE	../src/dogscats/dogscats.py	/^JSON_CONTENT_TYPE = 'application\/json'$/;"	kind:variable	line:39
+JSON_CONTENT_TYPE	../src/shirts/shirts.py	/^JSON_CONTENT_TYPE = 'application\/json'$/;"	kind:variable	line:33
+JSON_CONTENT_TYPE	../src/style/style.py	/^JSON_CONTENT_TYPE = 'application\/json'$/;"	kind:variable	line:42
+SimpleDataBunch	../src/style/data.py	/^class SimpleDataBunch():$/;"	kind:class	line:41
+SimpleDataBunch	../src/style/style.py	/^from data import ContentStyleLoader, InputDataset, SimpleDataBunch$/;"	kind:namespace	line:35
+StyleInstanceNorm2d	../src/style/models.py	/^class StyleInstanceNorm2d(nn.InstanceNorm2d):$/;"	kind:class	line:17
+StylePredict	../src/style/models.py	/^class StylePredict(nn.Module):$/;"	kind:class	line:87
+StyleTransformer	../src/style/models.py	/^class StyleTransformer(nn.Module):$/;"	kind:class	line:53
+TransferLoss	../src/style/loss.py	/^class TransferLoss(nn.Module):$/;"	kind:class	line:5
+TransferLoss	../src/style/style.py	/^from loss import TransferLoss$/;"	kind:namespace	line:34
+VGGActivations	../src/style/models.py	/^class VGGActivations(nn.Module):$/;"	kind:class	line:121
+Variable	../src/dogscats/dogscats.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:25
+__getitem__	../src/style/data.py	/^    def __getitem__(self, i): return self.image_opener(self.x[i]),0    $/;"	kind:member	line:10
+__init__	../src/style/data.py	/^    def __init__(self, cont_dl, style_dl, repeat_xy=True):$/;"	kind:member	line:14
+__init__	../src/style/data.py	/^    def __init__(self, fns:FilePathList):$/;"	kind:member	line:5
+__init__	../src/style/data.py	/^    def __init__(self, train_dl, path): $/;"	kind:member	line:42
+__init__	../src/style/loss.py	/^    def __init__(self, m_vgg, cont_wgt, style_wgt, style_block_wgts, tva_wgt, data_norm, c_block=1):$/;"	kind:member	line:6
+__init__	../src/style/models.py	/^    def __init__(self):$/;"	kind:member	line:122
+__init__	../src/style/models.py	/^    def __init__(self):$/;"	kind:member	line:54
+__init__	../src/style/models.py	/^    def __init__(self, m_tran, m_style):$/;"	kind:member	line:7
+__init__	../src/style/models.py	/^    def __init__(self, pretrained, cut_name='avgpool', in_features=2048, out_features=2758, conv=False):$/;"	kind:member	line:88
+__init__.py	../utils/__init__.py	1;"	kind:file	line:1
+__iter__	../src/style/data.py	/^    def __iter__(self):$/;"	kind:member	line:20
+__len__	../src/style/data.py	/^    def __len__(self): return len(self.x)$/;"	kind:member	line:11
+__len__	../src/style/data.py	/^    def __len__(self):$/;"	kind:member	line:38
+_create_model	../src/dogscats/dogscats.py	/^def _create_model(arch, device):$/;"	kind:function	line:95
+_default_meta	../src/dogscats/dogscats.py	/^_default_meta = {'cut':-1, 'split':_default_split}$/;"	kind:variable	line:53
+_default_split	../src/dogscats/dogscats.py	/^def _default_split(m:Model): return (m[1],)$/;"	kind:function	line:49
+_load_data	../src/style/style.py	/^def _load_data(args):$/;"	kind:function	line:92
+_model_meta	../src/dogscats/dogscats.py	/^_model_meta = {$/;"	kind:variable	line:56
+_preprocess	../src/dogscats/dogscats.py	/^_preprocess = transforms.Compose([$/;"	kind:variable	line:62
+_resnet_meta	../src/dogscats/dogscats.py	/^_resnet_meta  = {'cut':-2, 'split':_resnet_split }$/;"	kind:variable	line:54
+_resnet_split	../src/dogscats/dogscats.py	/^def _resnet_split(m:Model): return (m[0][6],m[1])$/;"	kind:function	line:51
+_save_model	../src/dogscats/dogscats.py	/^def _save_model(name, model, model_dir):$/;"	kind:function	line:87
+_train	../src/dogscats/dogscats.py	/^def _train(args):$/;"	kind:function	line:70
+_train	../src/shirts/shirts.py	/^def _train(args):$/;"	kind:function	line:43
+_train	../src/style/style.py	/^def _train(args):$/;"	kind:function	line:52
+argparse	../src/dogscats/dogscats.py	/^import argparse$/;"	kind:namespace	line:14
+argparse	../src/shirts/shirts.py	/^import argparse$/;"	kind:namespace	line:14
+argparse	../src/style/style.py	/^import argparse$/;"	kind:namespace	line:14
+ast	../src/dogscats/dogscats.py	/^import ast$/;"	kind:namespace	line:13
+ast	../src/shirts/shirts.py	/^import ast$/;"	kind:namespace	line:13
+ast	../src/style/style.py	/^import ast$/;"	kind:namespace	line:13
+callbacks.py	../src/style/callbacks.py	1;"	kind:file	line:1
+classes	../src/dogscats/dogscats.py	/^classes = ('cats', 'dogs')$/;"	kind:variable	line:46
+conv	../src/style/models.py	/^def conv(ni, nf, kernel_size=3, stride=1, actn=True, pad=None, inorm=StyleInstanceNorm2d, bnorm=False):$/;"	kind:function	line:39
+create_inception	../src/style/models.py	/^    def create_inception(cls):$/;"	kind:member	line:108
+create_resnet	../src/style/models.py	/^    def create_resnet(cls):$/;"	kind:member	line:114
+ct_loss	../src/style/loss.py	/^def ct_loss(input, target): return F.mse_loss(input,target)$/;"	kind:function	line:33
+data.py	../src/style/data.py	1;"	kind:file	line:1
+dist	../src/style/dist.py	/^import torch.distributed.deprecated as dist$/;"	kind:namespace	line:1
+dist	../src/style/style.py	/^import torch.distributed.deprecated as dist$/;"	kind:namespace	line:30
+dist.py	../src/style/dist.py	1;"	kind:file	line:1
+distributed	../src/style/dist.py	/^import torch.distributed.deprecated as dist$/;"	kind:namespace	line:1
+distributed	../src/style/style.py	/^import torch.distributed.deprecated as dist$/;"	kind:namespace	line:30
+dogscats.py	../src/dogscats/dogscats.py	1;"	kind:file	line:1
+env_rank	../src/style/dist.py	/^def env_rank(): return int(os.environ.get('RANK',0))/;"	kind:function	line:22
+env_world_size	../src/style/dist.py	/^def env_world_size(): return int(os.environ.get('WORLD_SIZE', 1))$/;"	kind:function	line:21
+fastai	../src/shirts/shirts.py	/^import fastai$/;"	kind:namespace	line:24
+fastai	../src/style/style.py	/^import fastai$/;"	kind:namespace	line:24
+forward	../src/style/loss.py	/^    def forward(self, input, x_cont, x_style):$/;"	kind:member	line:12
+forward	../src/style/models.py	/^    def forward(self, input):$/;"	kind:member	line:136
+forward	../src/style/models.py	/^    def forward(self, input):$/;"	kind:member	line:18
+forward	../src/style/models.py	/^    def forward(self, x):$/;"	kind:member	line:103
+forward	../src/style/models.py	/^    def forward(self, x, style_pred): $/;"	kind:member	line:66
+forward	../src/style/models.py	/^    def forward(self, x_con, x_style):$/;"	kind:member	line:11
+get_inorm	../src/style/models.py	/^def get_inorm(m):$/;"	kind:function	line:32
+glob	../src/dogscats/dogscats.py	/^import glob$/;"	kind:namespace	line:19
+glob	../src/shirts/shirts.py	/^import glob$/;"	kind:namespace	line:18
+glob	../src/style/style.py	/^import glob$/;"	kind:namespace	line:18
+gram	../src/style/loss.py	/^def gram(input):$/;"	kind:function	line:35
+gram_loss	../src/style/loss.py	/^def gram_loss(input, target): return F.mse_loss(gram(input), gram(target))$/;"	kind:function	line:40
+inception_v3	../src/style/models.py	/^from torchvision.models import vgg16_bn, resnet50, inception_v3$/;"	kind:namespace	line:2
+input_fn	../src/dogscats/dogscats.py	/^def input_fn(request_body, content_type=JPEG_CONTENT_TYPE):$/;"	kind:function	line:125
+input_fn	../src/shirts/shirts.py	/^def input_fn(request_body, content_type=JPEG_CONTENT_TYPE):$/;"	kind:function	line:76
+input_fn	../src/style/style.py	/^def input_fn(request_body, content_type=JPEG_CONTENT_TYPE):$/;"	kind:function	line:117
+io	../src/dogscats/dogscats.py	/^import io$/;"	kind:namespace	line:18
+json	../src/dogscats/dogscats.py	/^import json$/;"	kind:namespace	line:16
+json	../src/shirts/shirts.py	/^import json$/;"	kind:namespace	line:16
+json	../src/style/style.py	/^import json$/;"	kind:namespace	line:16
+load_state_dict	../src/style/dist.py	/^    def load_state_dict(self, *args, **kwargs): self.module.load_state_dict(*args, **kwargs)$/;"	kind:member	line:13
+logger	../src/dogscats/dogscats.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:35
+logger	../src/shirts/shirts.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:29
+logger	../src/style/style.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:38
+logging	../src/dogscats/dogscats.py	/^import logging$/;"	kind:namespace	line:15
+logging	../src/shirts/shirts.py	/^import logging$/;"	kind:namespace	line:15
+logging	../src/style/style.py	/^import logging$/;"	kind:namespace	line:15
+loss.py	../src/style/loss.py	1;"	kind:file	line:1
+model_fn	../src/dogscats/dogscats.py	/^def model_fn(model_dir):$/;"	kind:function	line:107
+model_fn	../src/shirts/shirts.py	/^def model_fn(model_dir):$/;"	kind:function	line:62
+model_fn	../src/style/style.py	/^def model_fn(model_dir):$/;"	kind:function	line:103
+models.py	../src/style/models.py	1;"	kind:file	line:1
+nn	../src/dogscats/dogscats.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:26
+nn	../src/shirts/shirts.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:22
+nn	../src/style/loss.py	/^from torch import nn$/;"	kind:namespace	line:1
+nn	../src/style/style.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:22
+np	../src/dogscats/dogscats.py	/^import numpy as np$/;"	kind:namespace	line:21
+os	../src/dogscats/dogscats.py	/^import os$/;"	kind:namespace	line:17
+os	../src/shirts/shirts.py	/^import os$/;"	kind:namespace	line:17
+os	../src/style/dist.py	/^import os$/;"	kind:namespace	line:4
+os	../src/style/style.py	/^import os$/;"	kind:namespace	line:17
+output_fn	../src/dogscats/dogscats.py	/^def output_fn(prediction, accept=JSON_CONTENT_TYPE):        $/;"	kind:function	line:158
+output_fn	../src/shirts/shirts.py	/^def output_fn(prediction, accept=JSON_CONTENT_TYPE):        $/;"	kind:function	line:98
+output_fn	../src/style/style.py	/^def output_fn(prediction, accept=JSON_CONTENT_TYPE):        $/;"	kind:function	line:139
+predict_fn	../src/dogscats/dogscats.py	/^def predict_fn(input_object, model):$/;"	kind:function	line:140
+predict_fn	../src/shirts/shirts.py	/^def predict_fn(input_object, model):$/;"	kind:function	line:84
+predict_fn	../src/style/style.py	/^def predict_fn(input_object, model):$/;"	kind:function	line:125
+reduce_tensor	../src/style/dist.py	/^def reduce_tensor(tensor): return sum_tensor(tensor)\/env_world_size()$/;"	kind:function	line:16
+res_block	../src/style/models.py	/^def res_block(nf):$/;"	kind:function	line:47
+reset_style	../src/style/models.py	/^    def reset_style(self):$/;"	kind:member	line:28
+resnet50	../src/style/models.py	/^from torchvision.models import vgg16_bn, resnet50, inception_v3$/;"	kind:namespace	line:2
+shirts.py	../src/shirts/shirts.py	1;"	kind:file	line:1
+state_dict	../src/style/dist.py	/^    def state_dict(self, *args, **kwargs): return self.module.state_dict(*args, **kwargs)$/;"	kind:member	line:14
+style.py	../src/style/style.py	1;"	kind:file	line:1
+sum_tensor	../src/style/dist.py	/^def sum_tensor(tensor):$/;"	kind:function	line:17
+torch	../src/dogscats/dogscats.py	/^import torch$/;"	kind:namespace	line:24
+torch	../src/dogscats/dogscats.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:26
+torch	../src/shirts/shirts.py	/^import torch$/;"	kind:namespace	line:21
+torch	../src/shirts/shirts.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:22
+torch	../src/style/dist.py	/^import torch.distributed.deprecated as dist$/;"	kind:namespace	line:1
+torch	../src/style/loss.py	/^import torch$/;"	kind:namespace	line:2
+torch	../src/style/style.py	/^import torch$/;"	kind:namespace	line:21
+torch	../src/style/style.py	/^import torch.distributed.deprecated as dist$/;"	kind:namespace	line:30
+torch	../src/style/style.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:22
+transforms	../src/dogscats/dogscats.py	/^from torchvision import transforms$/;"	kind:namespace	line:28
+tva_loss	../src/style/loss.py	/^def tva_loss(y):$/;"	kind:function	line:42
+update_inorm	../src/style/models.py	/^    def update_inorm(self, iparams):$/;"	kind:member	line:75
+upsample	../src/style/models.py	/^def upsample(ni, nf):$/;"	kind:function	line:50
+vgg16_bn	../src/style/models.py	/^from torchvision.models import vgg16_bn, resnet50, inception_v3$/;"	kind:namespace	line:2
